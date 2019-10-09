@@ -1,0 +1,23 @@
+plugins {
+    id 'org.springframework.boot' version '2.1.9.RELEASE'
+    id 'io.spring.dependency-management' version '1.0.8.RELEASE'
+    id 'java'
+}
+
+group = 'com.tavisca.gce'
+sourceCompatibility = '1.8'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-web'
+    compile group: 'org.springframework', name: 'spring-jdbc'
+    compile group: 'mysql', name: 'mysql-connector-java'
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-data-jpa'
+    compile group: 'org.json', name: 'json', version: '20090211'
+    compile group: 'com.fasterxml.jackson.dataformat', name: 'jackson-dataformat-csv', version: '2.2.3'
+    compile group: 'com.opencsv', name: 'opencsv', version: '4.1'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+}
