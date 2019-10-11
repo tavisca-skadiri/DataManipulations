@@ -1,4 +1,4 @@
-package com.tavisca.gce.formatter.service;
+package com.tavisca.gce.formatter.service.formatservice;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.tavisca.gce.formatter.model.Employee;
@@ -11,7 +11,7 @@ import java.io.IOException;
 import java.util.List;
 
 @Service
-public class EmpJsonFileService {
+public class EmpJsonService {
     @Autowired
     private EmpRepository repo;
 

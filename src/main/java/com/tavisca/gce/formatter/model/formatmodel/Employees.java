@@ -1,4 +1,6 @@
-package com.tavisca.gce.formatter.model;
+package com.tavisca.gce.formatter.model.formatmodel;
+
+import com.tavisca.gce.formatter.model.Employee;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;

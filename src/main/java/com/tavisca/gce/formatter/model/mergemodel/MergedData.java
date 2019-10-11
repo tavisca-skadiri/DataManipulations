@@ -1,21 +1,21 @@
-package com.tavisca.gce.formatter.model;
+package com.tavisca.gce.formatter.model.mergemodel;
 
 import java.util.List;
 
-public class DeptDetail {
-    private List<BasicEmp> employees;
+public class MergedData {
+    private List<BasicEmployee> employees;
     private String deptName;
 
-    public DeptDetail(List<BasicEmp> employees, String deptName) {
+    public MergedData(List<BasicEmployee> employees, String deptName) {
         this.employees = employees;
         this.deptName = deptName;
     }
 
-    public List<BasicEmp> getEmployees() {
+    public List<BasicEmployee> getEmployees() {
         return employees;
     }
 
-    public void setEmployees(List<BasicEmp> employees) {
+    public void setEmployees(List<BasicEmployee> employees) {
         this.employees = employees;
     }
 

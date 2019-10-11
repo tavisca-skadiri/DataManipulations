@@ -1,6 +1,6 @@
-package com.tavisca.gce.formatter.service;
+package com.tavisca.gce.formatter.service.formatservice;
 
-import com.tavisca.gce.formatter.model.Employees;
+import com.tavisca.gce.formatter.model.formatmodel.Employees;
 import com.tavisca.gce.formatter.repository.EmpRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -12,7 +12,7 @@ import java.io.File;
 import java.util.ArrayList;
 
 @Service
-public class EmpXmlFileService {
+public class EmpXmlService {
     @Autowired
     private EmpRepository repo;
 

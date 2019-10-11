@@ -1,4 +1,4 @@
-package com.tavisca.gce.formatter.model;
+package com.tavisca.gce.formatter.model.mergemodel;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
@@ -7,7 +7,7 @@ import java.io.Serializable;
 
 @Entity
 @Table(name = "employees")
-public class BasicEmp implements Serializable {
+public class BasicEmployee implements Serializable {
     @Id
     private int id;
     private int empid;
@@ -57,7 +57,7 @@ public class BasicEmp implements Serializable {
 
     @Override
     public String toString() {
-        return "BasicEmp{" +
+        return "BasicEmployee{" +
                 "id=" + id +
                 ", empid=" + empid +
                 ", name='" + name + '\'' +

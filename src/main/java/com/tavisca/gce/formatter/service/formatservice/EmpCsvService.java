@@ -1,4 +1,4 @@
-package com.tavisca.gce.formatter.service;
+package com.tavisca.gce.formatter.service.formatservice;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.dataformat.csv.CsvMapper;
@@ -17,7 +17,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Service
-public class EmpCsvFileService {
+public class EmpCsvService {
     @Autowired
     private EmpRepository repo;
 

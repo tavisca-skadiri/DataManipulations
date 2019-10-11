@@ -1,4 +1,4 @@
-package com.tavisca.gce.formatter.service;
+package com.tavisca.gce.formatter.service.getservice;
 
 import com.tavisca.gce.formatter.model.Department;
 import com.tavisca.gce.formatter.repository.DeptRepository;
@@ -12,7 +12,7 @@ public class DeptService {
     @Autowired
     private DeptRepository repository;
 
-    List<Department> getDepartmnets() {
+    public List<Department> getDepartments() {
         return repository.findAll();
     }
 }
